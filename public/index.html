@@ -1,0 +1,30 @@
+<!--
+ * @name: 文件
+ * @Author: Gin
+ * @Date: 2020-12-23 09:26:08
+ * @LastEditors: Gin
+ * @LastEditTime: 2020-12-23 17:33:05
+-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title><%= webpackConfig.name %></title>
+  </head>
+  <script>
+    window._CONFIG = {};
+    //打印地址
+    window._CONFIG['printUrl'] = 'http://localhost:9166/waterSavingMisController/'; //开发环境
+    //window._CONFIG['printUrl'] = 'http://47.103.113.4:10002/waterSavingMisController'; //测试环境
+    //window._CONFIG['printUrl'] = ''; //生产环境
+
+  </script>
+  <body>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>
